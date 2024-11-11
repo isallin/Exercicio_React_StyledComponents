@@ -1,12 +1,13 @@
 import { Form, HeroTitle } from './styles'
+import { Container } from '../../global'
 
 const Hero = () => (
   <Form>
-    <div className="container">
+    <Container>
       <HeroTitle>
         As melhores vagas para tecnologia, design e artes visuais.
       </HeroTitle>
-    </div>
+    </Container>
   </Form>
 )
 
